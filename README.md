@@ -55,6 +55,7 @@ Variabel-variabel pada Top 10000 Popular Movies Dataset adalah sebagai berikut:
 | 10 | revenue           | 10000 non-null | int64   |
 | 11 | runtime           | 9991 non-null  | float64 |
 | 12 | tagline           | 7080 non-null  | object  |
+
 Berdasarkan table di atas, kita dapat mengetahui bahwa dataset memiliki 10000 entri. disini terlihat bahwa '_release_date', '_overview_', '_runtime_', dan '_tagline_' terdapat _missing value_. namun karena kita tidak memerlukan fitur itu, maka kita hanya hapus kolomnya saja.
 
 ## Data Preparation
@@ -108,7 +109,7 @@ Metrik yang akan kita gunakan pada prediksi ini adalah _Precision_ dan _Recall_ 
 
 _Precision at k_ didefinisikan dalam persamaan berikut
 
-$$Precision\ at\ k = { \Large \#\ of\ recommended\ item\ that\ are\  relevan \over  \#\  of \ recommended \ item\Large}$$ 
+$$Precision\ at\ k = { \Large \ttvar{#}\ of\ recommended\ item\ that\ are\  relevan \over  \ttvar{#}\  of \ recommended \ item\Large}$$ 
 
 Untuk testing disini menggunakan nama film 'Star Wars' dengan genre '_Adventure_', '_Action_', '_Science Fiction_'. Tentu kita berharap rekomendasi yang diberikan adalah film dengan kategori yang mirip. 
 
