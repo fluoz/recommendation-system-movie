@@ -109,7 +109,7 @@ Metrik yang akan kita gunakan pada prediksi ini adalah _Precision_ dan _Recall_ 
 
 _Precision at k_ didefinisikan dalam persamaan berikut
 
-$$Precision\ at\ k = { \Large \ttvar{#}\ of\ recommended\ item\ that\ are\  relevan \over  \ttvar{#}\  of \ recommended \ item\Large}$$ 
+$$Precision\ at\ k = { \Large N\ of\ recommended\ item\ that\ are\  relevan \over  N\  of \ recommended \ item\Large}$$ 
 
 Untuk testing disini menggunakan nama film 'Star Wars' dengan genre '_Adventure_', '_Action_', '_Science Fiction_'. Tentu kita berharap rekomendasi yang diberikan adalah film dengan kategori yang mirip. 
 
